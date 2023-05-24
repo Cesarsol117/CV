@@ -19,7 +19,7 @@ html{
 body{
     font-size: 16px;
     font-family:  'Krub', Arial, Helvetica, sans-serif;
-    margin: 10rem 10rem;
+    margin: 0 10rem;
 }
 
 
@@ -74,6 +74,7 @@ h1,h2,h3{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border-width: 10rem;
 }
 @media (min-width: 768px) {
     .boton{
@@ -119,6 +120,7 @@ h1,h2,h3{
     height: 45rem;
     position: relative;
 }
+
 .contenido-hero{
     position: absolute;
     background-color: rgba(0,0,0, .5);
@@ -132,5 +134,25 @@ h1,h2,h3{
     justify-content: center;
     /* codigo para alinear vertical como horizontal */
 }
+/* para el css de la cv */
+.cv{
+    background-image: url( https://drive.google.com/uc?id=1YRYfLmHdcZqbRGWMC5Kf-n6k_o16805s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    position: relative;
+}
 
-
+.contenido-cv{
+    position: absolute;
+    background-color: rgba(0,0,0, .5);
+    width: 100%;
+    height: 100%;
+    color: var(--blanco);
+    /* posiciona mienti */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        /* codigo para alinear vertical como horizontal */
+}
