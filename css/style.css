@@ -1,12 +1,14 @@
-h1{
-    text-align: center;
-}
-span{
-    font-size: 2rem;
+body{
+    background-image: linear-gradient(to top, #DFE9f3 0%, #ffffff 100%) ;
 }
 
+/* se le agrega sombra al main */
 .sombra{
     -webkit-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
     -moz-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
     box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    background-color: var();
+    padding: 2rem;
+    border-radius: 2rem;
 }
+/* ------------------------------ */
