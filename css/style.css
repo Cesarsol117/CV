@@ -4,3 +4,9 @@ h1{
 span{
     font-size: 2rem;
 }
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    -moz-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+}
