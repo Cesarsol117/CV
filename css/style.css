@@ -20,6 +20,7 @@ body{
     font-size: 16px;
     font-family:  'Krub', Arial, Helvetica, sans-serif;
     margin: 0 10rem;
+    background-image: linear-gradient(to top, #DFE9f3 0%, #ffffff 100%) ;
 }
 
 
@@ -178,4 +179,47 @@ h1,h2,h3{
     align-items: center;
     justify-content: center;
         /* codigo para alinear vertical como horizontal */
+}
+/* se le agrega sombra al main */
+.sombra{
+    -webkit-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    -moz-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    background-color: var();
+    padding: 2rem;
+    border-radius: 2rem;
+}
+/* ------------------------------ */
+/* servcios */
+/* se utiliza grid para que las cajas de servicios se coloquen en una grilia */
+@media (min-width: 768px) {
+    /* se coloca en un media para el responsively */
+    .servicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    column-gap: 10px;
+    }
+}
+/* se utiliza dysplay flex para la alieneacion dentro del las cajas */
+.lenguajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lenguajes h3{
+    color: aqua;
+}
+.lenguajes p{
+    line-height: 2;
+    text-align: center;
+}
+/* se realizan iconos redondos para colocar imagenes en el interiosr */
+.lenguajes .iconos{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
