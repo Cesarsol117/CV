@@ -49,6 +49,7 @@ h3{
 }
 h1,h2,h3{
     text-align: center;
+    border: 1px solid #000000;
 /* ------------------ */
 }
 .titulo span{
@@ -62,6 +63,7 @@ h1,h2,h3{
     margin-left: auto;
     margin-right: auto; */
     margin: 0 auto;
+    border: 1px solid #000000;
     
 }
 /* agregar un boton */
@@ -120,6 +122,7 @@ h1,h2,h3{
     background-size: cover;
     height: 45rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero{
@@ -182,10 +185,9 @@ h1,h2,h3{
 }
 /* se le agrega sombra al main */
 .sombra{
-    -webkit-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
-    -moz-box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    
     box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
-    background-color: var();
+    background-color: var(--blanco);
     padding: 2rem;
     border-radius: 2rem;
 }
@@ -207,7 +209,7 @@ h1,h2,h3{
     align-items: center;
 }
 .lenguajes h3{
-    color: aqua;
+    color: var(--secundario);
 }
 .lenguajes p{
     line-height: 2;
@@ -217,9 +219,25 @@ h1,h2,h3{
 .lenguajes .iconos{
     height: 2.5rem;
     width: 2.5rem;
-    background-color: yellow;
+    background-color: var(--primario);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #000000;
+}
+.hoja{
+    border: 1px solid #000000;
+}
+.foto{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    column-gap: 10px;
+    border: 1px solid #000000;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
