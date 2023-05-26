@@ -19,7 +19,7 @@ html{
 body{
     font-size: 16px;
     font-family:  'Krub', Arial, Helvetica, sans-serif;
-    margin: 0 10rem;
+    /* margin: 0 10rem; */
     background-image: linear-gradient(to top, #DFE9f3 0%, #ffffff 100%) ;
 }
 
