@@ -4,6 +4,7 @@
     --oscuro: #212121;
     --primario: #ffc107;
     --secundario: #0097a7;
+    --titulohoja: #1703b5;
     --gris: #757575;
     /* se puede crear cualquier tipo de varible para definir el css */
 }
@@ -145,6 +146,7 @@ h1,h2,h3{
     background-size: cover;
     height: 20rem;
     position: relative;
+    
 }
 
 .contenido-cv{
@@ -228,16 +230,45 @@ h1,h2,h3{
 }
 .hoja{
     border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 120rem;
+    /* margin-top: 10px;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 1rem auto;
 }
 .foto{
     display: grid;
-    grid-template-columns: 70% 30% ;
+    grid-template-columns: 8fr 2fr ;
     column-gap: 10px;
+    border: 1px solid #000000;  
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    height: 140px;
+    width: 100px;
     border: 1px solid #000000;
 }
 .info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
-    
+    flex-direction: row;
+    border: 1px solid var(--primario);
+}
+.datosinfo{
+    border: 1px solid violet;
+}
+.datosinfo h1,h4, span{
+    text-align: start;
+    color: var(--titulohoja);
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
