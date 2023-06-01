@@ -64,7 +64,7 @@ h1,h2,h3{
     margin-left: auto;
     margin-right: auto; */
     margin: 0 auto;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     
 }
 /* agregar un boton */
@@ -265,6 +265,8 @@ h1,h2,h3{
     font-size: 12px;
     /* border: 1px solid var(--primario); */
     margin: 0 10px 0 10px;
+    padding: 0;
+    height: 30px;
 }
 /* --------------- */
 .datosinfo{
@@ -318,6 +320,33 @@ h1,h2,h3{
     border: 1px solid var(--gris);
     border-radius: 10cm;
     text-align: center;
+    box-shadow: 0px 0px 0px 5px rgba(219,248,252,1);
+}
+/* lengualjes */
+.relleno{
+    background-color: var(--secundario);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--oscuro);
+}
+.rellenoblanco{
+    background-color: var(--blanco);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--oscuro);
+}
+.lenguajes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 12px;
+    /* border: 1px solid var(--primario); */
+    margin: 0 10px 0 10px;
+    padding: 0;
+    height: 30px;
 }
 
 /* ------------fin de complementos */
@@ -345,3 +374,11 @@ h1,h2,h3{
     padding: 0.5rem;
 }
 /* ------------ fin titulos de bloqes --------*/
+.titulosub__pride{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.icon{
+    margin:0 0.5rem 0 0.5rem;
+}
