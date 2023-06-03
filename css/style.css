@@ -239,6 +239,7 @@ h1,h2,h3{
     margin-left: auto;
     margin-right: auto; */
     margin: 1rem auto;
+    padding: 3.5rem;
 }
 .foto{
     display: grid;
@@ -433,4 +434,65 @@ h1,h2,h3{
   
   [transition-style="out:circle:top-right"] {
     animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-out-top-right both;
+  }
+  /* .........prueba containesr */
+  .prueba{
+    margin: 0 ;
+    background-color: #1a0133;
+    font-family: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .container{
+    width: 1000px;
+  }
+  .chart-wrap{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .pie-chart{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--gris);
+    background: conic-gradient(
+        from 0deg,
+        rgb(58, 93, 141) 0,
+        rgb(58, 93, 141)          calc(33.33%),
+        rgb(27, 51, 191)    calc(33.33%),/* desde */
+        rgb(27, 51, 191)    calc(33.33% + 33.33%),/* hasta */
+        rgb(43, 226, 104)   calc(33.33% + 33.33%),/* desde */
+        rgb(43, 226, 104)   calc(33.33% + 33.33% + 8.33%),/* hasta */
+        #c8a91e             calc(33.33% + 33.33% + 8.33%),
+        #c8a91e             calc(33.33% + 33.33% + 8.33% + 12.5%),
+        #4f58f8f8             calc(33.33% + 33.33% + 8.33% + 12.5%),
+        #4f58f8f8             calc(33.33% + 33.33% + 8.33% + 12.5% + 12.5%)
+        
+    );
+  }
+  .chart-info h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #dbdbdb;
+  }
+  .chart-info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .chart-info ul li{
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: right;
+    color: #ffffff;
+  }
+  .chart-info ul li span{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: inline-block;
   }
