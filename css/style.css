@@ -205,7 +205,7 @@ h1,h2,h3{
     }
 }
 /* se utiliza dysplay flex para la alieneacion dentro del las cajas */
-.lenguajes{
+.programa{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,12 +213,12 @@ h1,h2,h3{
 /* .lenguajes h3{
     color: var(--secundario);
 } */
-.lenguajes p{
+.programa p{
     line-height: 2;
     text-align: center;
 }
 /* se realizan iconos redondos para colocar imagenes en el interiosr */
-.lenguajes .iconos{
+.programa .iconos{
     height: 2.5rem;
     width: 2.5rem;
     background-color: var(--primario);
@@ -273,6 +273,12 @@ h1,h2,h3{
 .datosinfo{
     /* border: 1px solid violet; */
 }
+/* modificando listas */
+.informa__experiencia ul li{
+    margin-top: 1rem;
+    text-align: justify;
+}
+/*  */
 .datosinfo h1, h4, span{
     text-align: start;
     color: var(--titulohoja);
@@ -289,14 +295,14 @@ h1,h2,h3{
 }
 .informa__experiencia{
     text-align: start;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
-.caja{
+/* .caja{
     border: 1px solid green;
 }
 .cajaex{
     border: 1px solid green;
-}
+} */
 /* complementos */
 .informa__complementos{
     grid-column: 2/3;
@@ -419,7 +425,7 @@ h1,h2,h3{
     align-items: center;
     flex-direction: row;
     font-size: 12px;
-    border: 1px solid var(--primario);
+    /* border: 1px solid var(--primario); */
     margin: 0 10px 0 10px;
     padding: 2rem;  
 }
@@ -447,8 +453,8 @@ h1,h2,h3{
     background-color: var(--gris);
     background: conic-gradient(
         from 0deg,
-        rgb(58, 93, 141) 0,
-        rgb(58, 93, 141)          calc(33.33%),
+        rgb(106, 12, 146) 0,
+        rgb(106, 12, 146)          calc(33.33%),
         rgb(27, 51, 191)    calc(33.33%),/* desde */
         rgb(27, 51, 191)    calc(33.33% + 33.33%),/* hasta */
         rgb(43, 226, 104)   calc(33.33% + 33.33%),/* desde */
