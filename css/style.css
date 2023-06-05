@@ -285,17 +285,23 @@ h1,h2,h3{
     grid-template-columns: 2fr 1fr;
     column-gap: 3rem;
     row-gap: 1rem;
+    margin-top: 2rem;
 }
 .informa__experiencia{
     text-align: start;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
-.caja{
+.informa__experiencia ul li{
+    margin-top: 1rem;
+    text-align: justify;
+
+}
+/* .caja{
     border: 1px solid green;
 }
 .cajaex{
     border: 1px solid green;
-}
+} */
 /* complementos */
 .informa__complementos{
     grid-column: 2/3;
@@ -418,7 +424,7 @@ h1,h2,h3{
     align-items: center;
     flex-direction: row;
     font-size: 12px;
-    border: 1px solid var(--primario);
+    /* border: 1px solid var(--primario); */
     margin: 0 10px 0 10px;
     padding: 2rem;  
 }
@@ -446,8 +452,8 @@ h1,h2,h3{
     background-color: var(--gris);
     background: conic-gradient(
         from 0deg,
-        rgb(58, 93, 141) 0,
-        rgb(58, 93, 141)          calc(33.33%),
+        rgb(86, 7, 171) 0,
+        rgb(86, 7, 171)          calc(33.33%),
         rgb(27, 51, 191)    calc(33.33%),/* desde */
         rgb(27, 51, 191)    calc(33.33% + 33.33%),/* hasta */
         rgb(43, 226, 104)   calc(33.33% + 33.33%),/* desde */
