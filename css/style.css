@@ -210,9 +210,9 @@ h1,h2,h3{
     flex-direction: column;
     align-items: center;
 }
-.lenguajes h3{
+/* .lenguajes h3{
     color: var(--secundario);
-}
+} */
 .lenguajes p{
     line-height: 2;
     text-align: center;
@@ -254,7 +254,7 @@ h1,h2,h3{
 }
 .imagen{
     height: 140px;
-    width: 100px;
+    width: 120px;
     /* border: 1px solid #000000; */
 }
 /* ------ info para alinear los tabler icons */
@@ -271,7 +271,7 @@ h1,h2,h3{
 }
 /* --------------- */
 .datosinfo{
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
 }
 .datosinfo h1, h4, span{
     text-align: start;
@@ -410,33 +410,19 @@ h1,h2,h3{
 .icon{
     margin:0 0.5rem 0 0.5rem;
 }
-/* css styly */
-@keyframes circle-in-top-right {
-    from {
-      clip-path: circle(0%);
-    }
-    to {
-      clip-path: circle(150% at top right);
-    }
-  }
-  
-  [transition-style="in:circle:top-right"] {
-    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-top-right both;
-  }
-  @keyframes circle-out-top-right {
-    from {
-      clip-path: circle(125%);
-    }
-    to {
-      clip-path: circle(0% at top right);
-    }
-  }
-  
-  [transition-style="out:circle:top-right"] {
-    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-out-top-right both;
-  }
   /* .........prueba containesr */
-  .prueba{
+  /* un dia de mi vida */
+.pie-contenido{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 12px;
+    border: 1px solid var(--primario);
+    margin: 0 10px 0 10px;
+    padding: 2rem;  
+}
+.prueba{
     margin: 0 ;
     background-color: #1a0133;
     font-family: 16px;
@@ -444,16 +430,16 @@ h1,h2,h3{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  }
-  .container{
+}
+.container{
     width: 1000px;
-  }
-  .chart-wrap{
+}
+.chart-wrap{
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-  }
-  .pie-chart{
+}
+.pie-chart{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -472,27 +458,27 @@ h1,h2,h3{
         #4f58f8f8             calc(33.33% + 33.33% + 8.33% + 12.5% + 12.5%)
         
     );
-  }
-  .chart-info h2{
+}
+.chart-info h2{
     text-transform: capitalize;
-    font-size: 30px;
-    color: #dbdbdb;
-  }
-  .chart-info ul{
+    /* font-size: 30px; */
+    /* color: #dbdbdb; */
+}
+.chart-info ul{
     padding: 0;
     margin: 0;
     list-style: none;
-  }
-  .chart-info ul li{
+}
+.chart-info ul li{
     margin-bottom: 10px;
-    font-size: 30px;
-    text-align: right;
-    color: #ffffff;
-  }
-  .chart-info ul li span{
-    width: 30px;
-    height: 30px;
+    /* font-size: 30px; */
+    text-align: left;
+    /* color: #ffffff; */
+}
+.chart-info ul li span{
+    width: 10px;
+    height: 10px;
     border-radius: 5px;
     margin-left: 5px;
     display: inline-block;
-  }
+}
