@@ -240,35 +240,18 @@ h1,h2,h3{
     margin-right: auto; */
     margin: 1rem auto;
 }
-.foto{
-    display: grid;
-    grid-template-columns: 8fr 2fr ;
-    column-gap: 10px;
-    border: 1px solid #000000;  
-}
-.picture{
+/* ----- se inicia footer */
+.footer {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    align-items: center;
-}
-.imagen{
-    height: 140px;
-    width: 100px;
-    border: 1px solid #000000;
-}
-.info{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: row;
     border: 1px solid var(--primario);
+    margin: 1rem auto;
+    max-width: 120rem;
 }
-.datosinfo{
-    border: 1px solid violet;
-}
-.datosinfo h1,h4, span{
-    text-align: start;
-    color: var(--titulohoja);
-    margin: 0.5rem;
-    padding: 0.5rem;
+.footer__sombra{
+    box-shadow: 0px 5px 35px -11px rgba(82,82,196,0.55);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 2rem;
 }
